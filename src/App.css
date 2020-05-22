@@ -1,3 +1,24 @@
+body {
+    font-family: sans-serif;
+    height: 100vh;
+}
+
 /* 6. Write CSS rules that cause the header and .collage div to be centered on the page */
 
+header {
+    display: flex;
+    justify-content: center;
+}
+
 /* 7. Write CSS rules that ensure that no more than 4 photos appear on a row */
+
+.collage{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+img{
+    width: 250px;
+}
