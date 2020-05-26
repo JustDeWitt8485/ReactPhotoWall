@@ -14,8 +14,8 @@ header {
 
 .collage {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    flex-wrap: wrap;
     height: 850px;
     width: 820px;
 }
