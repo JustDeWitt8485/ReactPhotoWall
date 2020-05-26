@@ -20,7 +20,7 @@ class App extends Component {
       .then(data => {
         console.log(data)
         this.setState({ photos: data })
-    })
+      })
   }
   // 2. Declare a life cycle method
   // This life cycle method should:
@@ -34,8 +34,6 @@ class App extends Component {
         <header>
           <h1>Photo Wall</h1>
           <p>
-
-
             {/* Start by reading App.jsx and completing the numbered steps.
             Afterward, delete this paragraph. Then, open up App.css and complete
             the instructions there. */}
